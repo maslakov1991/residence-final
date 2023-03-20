@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Residence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top-row">
+        <div class="logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/Logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="contact-centre">
+          <a class="contact-centre__phone" href="tel:0 800 300 545">0 800 300 545</a>
+          <a class="contact-centre__link" href="">контакт-центр</a>
+        </div>
+      </div>
+      <div class="header__bottom-row">
+        <div class="menu-btn mobile-btn">
+          <span></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Трекінг</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Послуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Тарифи</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Відділення</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Індекси</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Філателія</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Кар’єра</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Бізнесу</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="menu__mobile">
+          <div class="close-btn-mobile">
+            <div class="close-btn-mobile__inner"></div>
+          </div>
+          <ul class="menu__mobile-list">
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Трекінг</a></li>
+            <li class="menu__mobile-item">
+              <button class="header-accordion">Поштові послуги</button>
+              <div class="panel">
+                <ul class="footer__item-list">
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Укрпошта Експрес</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Укрпошта Стандарт</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Доставка за межі України </a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Доставка в Україну</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Відправлення понад 30 кг </a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Кур’єрська доставка </a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Розрахунок вартості</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu__mobile-item">
+              <button class="header-accordion">Фінансові послуги</button>
+              <div class="panel">
+                <ul class="footer__item-list">
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Переказ "З картки додому"</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Переказ "З картки до
+                      відділення"</a>
+                  </li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Переказ "З картки на картку"</a>
+                  </li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Переказ «З карток банків
+                      Європи»</a>
+                  </li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Міжнародні поштові перекази</a>
+                  </li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Внутрішні поштові перекази</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Оплата послуг онлайн</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Платежі</a></li>
+                  <li class="header-accordion-item"><a href="#" class="header-accordion-link">Страхові послуги</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Тарифи</a></li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Відділення</a></li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Індекси</a></li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Філателія</a></li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Кар’єра</a></li>
+            <li class="menu__mobile-item"><a href="#" class="menu__mobile-link">Бізнесу</a></li>
+          </ul>
+        </nav>
+        <form class="searchbox">
+          <button class="search-btn" type="submit"></button>
+          <input class="search-input" type="search" placeholder="Пошук">
+        </form>
+        <div class="user-account">
+          <a class="login" href="#">Вхід/</a>
+          <a class="register" href="#">Реєстрація</a>
+          <div class="register__mobile">
+            <a href="#"><img src="images/account-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="lang-selection" id="header-lang-selection">
+          <a class="ua" href="#">UA</a>
+          <a class="eng" href="#">EN</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="main__wrapper">
+    </div>
+    <div class="main__toys">
+    </div>
+    <div class="container">
+      <h1 class="main__title">
+        Новорічна <br> поштова резиденція
+      </h1>
+      <p class="main__text">
+        Обійміть крізь міста листами й листівками — напишіть теплі слова, наклейте різдвяну поштову марку та
+        відправте близьким. Нехай розлітаються світом та зігрівають їх.
+      </p>
+      <div class="main__item">
+        <div class="main__item-image">
+          <img src="images/item-1.png" alt="item-1">
+        </div>
+        <div class="main__item-content">
+          <h3 class="main__item-title subtitle">Листуйтеся <br> з Новорічним чарівником</h3>
+          <p class="main__item-text">Найзаповітніші мрії, описані в листі, <br> неодмінно здійсняться!</p>
+          <div class="buttons">
+            <a class="section-button white popup-letter-btn popup-link" href="#popup">Зареєструвати лист</a>
+            <a class="section-button transparent" href="#">Як написати лист?</a>
+          </div>
+          <p class="main__item-address">
+            Адреса Новорічної поштової резиденції: <br>
+            <span>вул. Хрещатик, 22, м. Київ, 01001​</span>
+          </p>
+        </div>
+      </div>
+      <div class="main__item">
+        <div class="main__item-content" id="item-2-content">
+          <h3 class="main__item-title subtitle" id="item-2-title">Стежте за оновленнями <br> на Facebook-сторінці
+            Новорічної поштової
+            резиденції</h3>
+          <img class="item-2-img-mobile" src="images/item-2.png" alt="item-2">
+          <div class="buttons">
+            <a class="section-button white" href="#">Перейти</a>
+          </div>
+        </div>
+        <div class="main__item-image" id="item-2-img">
+          <img src="images/item-2.png" alt="item-2">
+        </div>
+      </div>
+      <div class="main__item">
+        <div class="main__item-image boxes-img">
+          <img src="images/item-3.png" alt="item-2">
+        </div>
+        <div class="main__item-content">
+          <h3 class="main__item-title subtitle">Не поруч, щоб поцілунками — <br> зігрійте подарунками</h3>
+          <p class="main__item-text">Вірте у дива та творіть їх самі — надсилайте подарунки близьким, де б вони не були.
+            Бо ж напередодні зимових свят кожному з нас треба більше тепла, ніж зазвичай.</p>
+          <div class="buttons">
+            <a class="section-button white" href="#">Надіслати подарунок</a>
+          </div>
+          <div class="boxes-img-mobile">
+            <img src="images/item-3.png" alt="item-2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="decor-bottom"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row first-row">
+        <div class="acc-wrapper">
+          <button class="accordion">Про Укрпошту</button>
+          <div class="panel">
+            <ul class="footer__item-list">
+              <li class="footer__list-item"><a href="" class="footer__list-link">Загальна інформація</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Керівництво</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Наглядова рада</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Дирекції</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Закупівлі</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Продаж і оренда нерухомості</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Протидія корупції</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Публічна інформація</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Для представників ЗМІ</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Новини</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Акції</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Контакт-центр</a></li>
+            </ul>
+          </div>
+
+          <button class="accordion">Поштові послуги</button>
+          <div class="panel">
+            <ul class="footer__item-list">
+              <li class="footer__list-item"><a href="" class="footer__list-link">Укрпошта Експрес</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Укрпошта Стандарт</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Доставка за межі України </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Доставка в Україну</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Відправлення понад 30 кг </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Кур’єрська доставка </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Розрахунок вартості</a></li>
+            </ul>
+          </div>
+
+          <button class="accordion">Фінансові послуги</button>
+          <div class="panel">
+            <ul class="footer__item-list">
+              <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки додому"</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки до відділення"</a>
+              </li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки на картку"</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Переказ «З карток банків Європи»</a>
+              </li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Міжнародні поштові перекази</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Внутрішні поштові перекази</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Оплата послуг онлайн</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Платежі</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Страхові послуги</a></li>
+            </ul>
+          </div>
+          <button class="accordion">Інше</button>
+          <div class="panel">
+            <ul class="footer__item-list">
+              <li class="footer__list-item"><a href="" class="footer__list-link">Онлайн-сервіси</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Онлайн-передплата</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Поштовий маркет </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Продукти «Власної марки» </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Періодичні видання</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Для видавців</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Електронне повідомлення </a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Секограма</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Знайти індекс</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Знайти відділення</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">Довідка</a></li>
+              <li class="footer__list-item"><a href="" class="footer__list-link">API від Укрпошти</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <a class="footer__item-title" href="#">
+            Про Укрпошту
+          </a>
+          <ul class="footer__item-list">
+            <li class="footer__list-item"><a href="" class="footer__list-link">Загальна інформація</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Керівництво</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Наглядова рада</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Дирекції</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Закупівлі</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Продаж і оренда нерухомості</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Протидія корупції</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Публічна інформація</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Для представників ЗМІ</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Новини</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Акції</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Контакт-центр</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <a class="footer__item-title" href="#">
+            Поштові послуги
+          </a>
+          <ul class="footer__item-list">
+            <li class="footer__list-item"><a href="" class="footer__list-link">Укрпошта Експрес</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Укрпошта Стандарт</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Доставка за межі України </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Доставка в Україну</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Відправлення понад 30 кг </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Кур’єрська доставка </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Розрахунок вартості</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <a class="footer__item-title" href="#">
+            Фінансові послуги
+          </a>
+          <ul class="footer__item-list">
+            <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки додому"</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки до відділення"</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Переказ "З картки на картку"</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Переказ «З карток банків Європи»</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Міжнародні поштові перекази</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Внутрішні поштові перекази</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Оплата послуг онлайн</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Платежі</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Страхові послуги</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <a class="footer__item-title" href="#">
+            Інше
+          </a>
+          <ul class="footer__item-list">
+            <li class="footer__list-item"><a href="" class="footer__list-link">Онлайн-сервіси</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Онлайн-передплата</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Поштовий маркет </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Продукти «Власної марки» </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Періодичні видання</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Для видавців</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Електронне повідомлення </a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Секограма</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Знайти індекс</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Знайти відділення</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">Довідка</a></li>
+            <li class="footer__list-item"><a href="" class="footer__list-link">API від Укрпошти</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__row second-row">
+        <div class="footer__address">
+          <p>вул. Хрещатик, 22, м. Київ</p>
+          <p>01001, Україна</p>
+          <p><a href="tel:+3804427869">ф. +380 44 278 69</a></p>
+        </div>
+        <div class="footer__socials-wrapper">
+          <ul class="footer__socials-list">
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="facebook">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1.10306 3.57484e-08H18.896C19.5055 -0.000153422 19.9997 0.493774 20 1.10306V18.896V18.8965C19.9998 19.5061 19.5056 20.0002 18.896 20H1.10397C0.494536 20.0002 0.000304342 19.5062 3.57484e-08 18.8969V1.10397C-0.000153422 0.494536 0.493774 0.000304342 1.10306 3.57484e-08ZM13.8086 12.2656V20H10.6836V12.2656H8.08594V9.23827H10.6836V7.01033C10.6836 4.42671 12.2609 3.02046 14.5656 3.02046C15.6694 3.02046 16.618 3.10271 16.8945 3.13948V5.83983H15.3053C14.0514 5.83983 13.8086 6.43568 13.8086 7.31017V9.23827H16.8066L16.416 12.2656H13.8086Z"
+                    fill="currentColor" />
+                </svg>
+
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="instagram">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_49_880)">
+                    <path
+                      d="M19.9806 5.88005C19.9337 4.81738 19.7619 4.0868 19.5157 3.45374C19.2617 2.78176 18.871 2.18014 18.3592 1.68002C17.859 1.1721 17.2534 0.777435 16.5892 0.527447C15.9525 0.281274 15.2258 0.109427 14.1631 0.0625732C13.0925 0.0117516 12.7526 0 10.0372 0C7.32185 0 6.98197 0.0117516 5.91533 0.0586052C4.85265 0.105459 4.12207 0.277459 3.48917 0.523479C2.81704 0.777435 2.21542 1.16814 1.71529 1.68002C1.20738 2.18014 0.812865 2.78573 0.562725 3.44992C0.316553 4.0868 0.144705 4.81341 0.0978515 5.87609C0.0470299 6.9467 0.0352783 7.28658 0.0352783 10.002C0.0352783 12.7173 0.0470299 13.0572 0.0938835 14.1239C0.140737 15.1865 0.312737 15.9171 0.558909 16.5502C0.812865 17.2221 1.20738 17.8238 1.71529 18.3239C2.21542 18.8318 2.82101 19.2265 3.4852 19.4765C4.12207 19.7226 4.84868 19.8945 5.91151 19.9413C6.978 19.9883 7.31804 19.9999 10.0334 19.9999C12.7488 19.9999 13.0887 19.9883 14.1553 19.9413C15.218 19.8945 15.9486 19.7226 16.5815 19.4765C17.9256 18.9568 18.9882 17.8941 19.5079 16.5502C19.7539 15.9133 19.9259 15.1865 19.9728 14.1239C20.0196 13.0572 20.0314 12.7173 20.0314 10.002C20.0314 7.28658 20.0274 6.9467 19.9806 5.88005ZM18.1795 14.0457C18.1365 15.0225 17.9724 15.5499 17.8357 15.9015C17.4996 16.7728 16.8081 17.4643 15.9368 17.8004C15.5852 17.9372 15.0539 18.1012 14.081 18.1441C13.0261 18.1911 12.7097 18.2027 10.0412 18.2027C7.37267 18.2027 7.05233 18.1911 6.00125 18.1441C5.0245 18.1012 4.49705 17.9372 4.14542 17.8004C3.71184 17.6402 3.31717 17.3862 2.99682 17.0541C2.66473 16.7298 2.41077 16.3391 2.25052 15.9055C2.11378 15.5539 1.94971 15.0225 1.90683 14.0497C1.85982 12.9948 1.84822 12.6783 1.84822 10.0097C1.84822 7.34122 1.85982 7.02087 1.90683 5.96995C1.94971 4.99319 2.11378 4.46575 2.25052 4.11412C2.41077 3.68038 2.66473 3.28586 3.00079 2.96536C3.32495 2.63327 3.71565 2.37931 4.14939 2.21921C4.50102 2.08247 5.03243 1.9184 6.00522 1.87537C7.06011 1.82851 7.37664 1.81676 10.045 1.81676C12.7175 1.81676 13.0339 1.82851 14.0849 1.87537C15.0617 1.9184 15.5891 2.08247 15.9408 2.21921C16.3744 2.37931 16.769 2.63327 17.0894 2.96536C17.4215 3.28967 17.6754 3.68038 17.8357 4.11412C17.9724 4.46575 18.1365 4.99701 18.1795 5.96995C18.2264 7.02484 18.2381 7.34122 18.2381 10.0097C18.2381 12.6783 18.2264 12.9908 18.1795 14.0457Z"
+                      fill="currentColor" />
+                    <path
+                      d="M10.0371 4.86414C7.20074 4.86414 4.89941 7.16531 4.89941 10.0019C4.89941 12.8384 7.20074 15.1396 10.0371 15.1396C12.8737 15.1396 15.1749 12.8384 15.1749 10.0019C15.1749 7.16531 12.8737 4.86414 10.0371 4.86414ZM10.0371 13.3346C8.19702 13.3346 6.70442 11.8421 6.70442 10.0019C6.70442 8.16159 8.19702 6.66915 10.0371 6.66915C11.8774 6.66915 13.3698 8.16159 13.3698 10.0019C13.3698 11.8421 11.8774 13.3346 10.0371 13.3346Z"
+                      fill="currentColor" />
+                    <path
+                      d="M16.5778 4.6611C16.5778 5.32346 16.0408 5.86052 15.3783 5.86052C14.7159 5.86052 14.1788 5.32346 14.1788 4.6611C14.1788 3.99858 14.7159 3.46167 15.3783 3.46167C16.0408 3.46167 16.5778 3.99858 16.5778 4.6611Z"
+                      fill="currentColor" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_49_880">
+                      <rect width="20" height="20" fill="currentColor" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="viber">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_49_884)">
+                    <path
+                      d="M19.2957 11.5775C19.8923 6.55502 19.009 3.38419 17.4157 1.95002L17.4165 1.94919C14.8448 -0.499979 6.15982 -0.86248 3.08316 2.05919C1.70149 3.48835 1.21482 5.58585 1.16149 8.18252C1.10816 10.78 1.04482 15.6459 5.57899 16.9659H5.58315L5.57899 18.9817C5.57899 18.9817 5.54815 19.7984 6.06982 19.9625C6.66649 20.1559 6.93649 19.7767 8.79232 17.56C11.8957 17.8292 14.279 17.2125 14.5498 17.1225C15.1765 16.9125 18.7223 16.4434 19.2957 11.5775ZM9.09816 16.1417C9.09816 16.1417 7.13399 18.5909 6.52316 19.2267C6.32315 19.4334 6.10399 19.4142 6.10732 19.0042C6.10732 18.735 6.12232 15.6575 6.12232 15.6575C2.27816 14.5559 2.50482 10.4125 2.54649 8.24502C2.58816 6.07669 2.98482 4.30085 4.15482 3.10502C6.85399 0.574187 14.4682 1.14002 16.4082 2.96335C18.7798 5.06585 17.9357 11.0059 17.9407 11.2084C17.4532 15.27 14.5798 15.5275 14.0515 15.7034C13.8257 15.7784 11.7298 16.3175 9.09816 16.1417Z"
+                      fill="currentColor" />
+                    <path
+                      d="M10.1848 3.58081C9.86401 3.58081 9.86401 4.08081 10.1848 4.08498C12.674 4.10414 14.724 5.83914 14.7465 9.02165C14.7465 9.35748 15.2382 9.35331 15.234 9.01748H15.2332C15.2065 5.58831 12.9682 3.59998 10.1848 3.58081Z"
+                      fill="currentColor" />
+                    <path
+                      d="M13.4592 8.49432C13.4517 8.82599 13.9425 8.84182 13.9467 8.50599C13.9875 6.61515 12.8217 5.05765 10.6309 4.89349C10.31 4.87015 10.2767 5.37432 10.5967 5.39765C12.4967 5.54182 13.4975 6.83849 13.4592 8.49432Z"
+                      fill="currentColor" />
+                    <path
+                      d="M12.9343 10.645C12.5226 10.4067 12.1034 10.555 11.9301 10.7892L11.5676 11.2583C11.3834 11.4967 11.0393 11.465 11.0393 11.465C8.52759 10.8008 7.85593 8.17251 7.85593 8.17251C7.85593 8.17251 7.82509 7.81667 8.05509 7.62584L8.50843 7.25084C8.73509 7.07084 8.87843 6.63751 8.64759 6.21167C8.03093 5.09751 7.61676 4.71334 7.40593 4.41834C7.18426 4.14084 6.85093 4.07834 6.50426 4.26584H6.49676C5.77593 4.68751 4.98676 5.47667 5.23926 6.28917C5.6701 7.14584 6.46176 9.87667 8.98509 11.94C10.1709 12.9158 12.0476 13.9158 12.8443 14.1467L12.8518 14.1583C13.6368 14.42 14.4001 13.6 14.8076 12.8575V12.8517C14.9884 12.4925 14.9284 12.1525 14.6643 11.93C14.1959 11.4733 13.4893 10.9692 12.9343 10.645Z"
+                      fill="currentColor" />
+                    <path
+                      d="M10.9741 6.75348C11.775 6.80015 12.1633 7.21848 12.205 8.07765C12.22 8.41348 12.7075 8.39015 12.6925 8.05432C12.6391 6.93265 12.0541 6.30765 11.0008 6.24931C10.68 6.23015 10.65 6.73431 10.9741 6.75348Z"
+                      fill="currentColor" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_49_884">
+                      <rect width="20" height="20" fill="currentColor" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="linkedin">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_49_890)">
+                    <path
+                      d="M19.9951 20V19.9991H20.0001V12.6641C20.0001 9.07581 19.2276 6.31165 15.0326 6.31165C13.0159 6.31165 11.6626 7.41831 11.1101 8.46748H11.0517V6.64665H7.07422V19.9991H11.2159V13.3875C11.2159 11.6466 11.5459 9.96331 13.7017 9.96331C15.8259 9.96331 15.8576 11.95 15.8576 13.4991V20H19.9951Z"
+                      fill="currentColor" />
+                    <path d="M0.3302 6.64758H4.47687V20.0001H0.3302V6.64758Z" fill="currentColor" />
+                    <path
+                      d="M2.40167 0C1.07583 0 0 1.07583 0 2.40167C0 3.7275 1.07583 4.82583 2.40167 4.82583C3.7275 4.82583 4.80333 3.7275 4.80333 2.40167C4.8025 1.07583 3.72667 0 2.40167 0V0Z"
+                      fill="currentColor" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_49_890">
+                      <rect width="20" height="20" fill="currentColor" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="twitter">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_49_894)">
+                    <path
+                      d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z"
+                      fill="currentColor" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_49_894">
+                      <rect width="20" height="20" fill="currentColor" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link" id="youtube">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.9789 5.31361C18.7628 4.51035 18.1295 3.87715 17.3264 3.66086C15.8591 3.2594 9.99 3.2594 9.99 3.2594C9.99 3.2594 4.12113 3.2594 2.65388 3.64564C1.86619 3.8617 1.21742 4.51047 1.00136 5.31361C0.615234 6.78075 0.615234 9.82339 0.615234 9.82339C0.615234 9.82339 0.615234 12.8814 1.00136 14.3332C1.21765 15.1363 1.85074 15.7695 2.654 15.9858C4.13658 16.3874 9.99023 16.3874 9.99023 16.3874C9.99023 16.3874 15.8591 16.3874 17.3264 16.0011C18.1296 15.785 18.7628 15.1518 18.9791 14.3486C19.3651 12.8814 19.3651 9.83884 19.3651 9.83884C19.3651 9.83884 19.3806 6.78075 18.9789 5.31361ZM8.12141 12.6343V7.01249L13.0019 9.82339L8.12141 12.6343Z"
+                    fill="currentColor" />
+                </svg>
+
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="footer__socials-link deposit" id="deposit">
+            <svg width="108" height="20" viewBox="0 0 108 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_49_900)">
+                <path
+                  d="M11.4275 8.34241C10.0505 8.34241 8.93481 9.46167 8.93481 10.8389C8.93481 12.2162 10.0505 13.3355 11.4275 13.3355C12.8002 13.3355 13.9159 12.2159 13.9159 10.8389C13.9159 9.46204 12.8002 8.34241 11.4275 8.34241ZM12.887 12.1568C12.7001 12.3834 12.4654 12.5658 12.1998 12.691C11.9341 12.8161 11.644 12.881 11.3503 12.8808C10.2477 12.8808 9.35771 11.9881 9.35771 10.8816C9.35734 10.5874 9.42184 10.2967 9.54663 10.0302C9.67141 9.76377 9.85341 9.5281 10.0797 9.33999L10.1153 9.31386L10.0263 9.43366C9.80631 9.7638 9.68925 10.1518 9.69 10.5486C9.69 11.6544 10.58 12.5478 11.6826 12.5478C12.0783 12.5483 12.4653 12.4308 12.7939 12.2102L12.9137 12.121L12.887 12.1568Z"
+                  fill="currentColor" />
+                <path
+                  d="M36.0045 7.56344C35.2617 6.9869 34.4003 6.66187 33.4999 6.66187C32.7796 6.66187 32.0575 6.88058 31.4387 7.24372C30.8023 7.6181 30.3872 8.14312 30.0104 8.81752C30.0048 8.82748 30.0003 8.83781 29.9947 8.84747V2.78125H27.7784V7.35521C27.2965 6.85505 26.4958 6.67385 25.7062 6.67385C24.9748 6.67385 24.3014 6.85337 23.6862 7.21243C23.0534 7.58328 22.5426 8.13339 22.1539 8.82778C21.7881 9.48668 21.666 9.92567 21.666 10.6291C21.666 11.6618 22.0173 12.793 22.7367 13.6049C23.5495 14.5234 24.5624 14.9826 25.7753 14.9826C26.7506 14.9826 27.6654 14.6682 28.4202 14.0381C28.9838 13.5599 29.4371 12.9409 29.7114 12.3002C29.7866 12.5041 29.8779 12.7017 29.9846 12.891C30.3502 13.5366 30.8595 14.0496 31.5126 14.43C32.1428 14.7934 32.8154 14.9921 33.5305 14.9921C34.1889 14.9921 34.7993 14.8278 35.3622 14.5336C35.5988 14.4071 35.805 14.2427 36.1203 14.0409L36.111 11.8703C35.4296 12.3603 34.9878 12.672 34.5772 12.8041C34.2172 12.9196 33.8373 12.9773 33.4376 12.9772C33.2519 12.9772 33.0267 12.9167 32.7622 12.7956L36.9581 8.51517C36.5923 8.08819 36.2744 7.77094 36.0045 7.56344ZM27.3604 12.3063C26.9137 12.8005 26.371 13.0476 25.7323 13.0476C25.0766 13.0476 24.5281 12.768 24.0869 12.209C23.7618 11.7973 23.5993 11.347 23.5994 10.8583C23.5994 10.3231 23.7648 9.86105 24.0956 9.4723C24.5137 8.9663 25.0506 8.71329 25.7065 8.71329C26.2925 8.71329 26.7858 8.89858 27.1865 9.26917C27.6681 9.72256 27.9089 10.2582 27.9089 10.8761C27.9089 11.4234 27.7261 11.9001 27.3604 12.3063ZM31.6229 11.611C31.4766 11.3054 31.4035 11.0487 31.4036 10.8409C31.4036 10.3281 31.5864 9.85556 31.9521 9.42318C32.3517 8.94443 32.8611 8.70503 33.4802 8.70498C33.6998 8.70498 33.9616 8.75989 34.2655 8.86971L31.6229 11.611Z"
+                  fill="currentColor" />
+                <path
+                  d="M11.4157 6.66089C9.11071 6.66089 7.23682 8.53149 7.23682 10.8379C7.23682 13.1442 9.11071 15.0201 11.4157 15.0201C13.7208 15.0201 15.5777 13.1449 15.5777 10.8379C15.5777 8.53082 13.7208 6.66089 11.4157 6.66089ZM11.4157 14.1989C9.55457 14.1989 8.03963 12.6832 8.03963 10.8207C8.03963 8.95828 9.55457 7.4467 11.4157 7.4467C13.2769 7.4467 14.7875 8.95843 14.7875 10.8207C14.7875 12.683 13.2764 14.199 11.4157 14.199V14.1989Z"
+                  fill="currentColor" />
+                <path
+                  d="M17.1958 6.8457H16.4965C16.2582 6.8457 16.0642 7.03903 16.0642 7.28342V7.75117C16.0642 7.99533 16.2582 8.19413 16.4965 8.19413H17.1958C17.4337 8.19413 17.6281 7.99541 17.6281 7.75117V7.28342C17.6281 7.03903 17.4337 6.8457 17.1958 6.8457Z"
+                  fill="currentColor" />
+                <path
+                  d="M18.6239 4.92213C16.8954 1.97992 13.567 0 9.93639 0C4.46062 0 -0.000366211 4.48097 -0.000366211 10.0026C-0.000366211 15.5243 4.46062 20 9.93639 20C12.5745 20 15.1252 18.9695 16.9035 17.2719C18.5522 17.2214 19.9447 16.4673 20.0116 14.3866V7.08467C20.0116 6.12245 19.4403 5.29658 18.6239 4.92213ZM18.9221 14.3932C18.9221 15.5303 18.0957 16.1123 16.9683 16.1123H5.84184C4.55586 16.1123 3.88146 15.8503 3.88146 14.5011V7.49281C3.88146 6.14948 4.59016 5.55205 5.87614 5.55205H8.30209C8.30209 5.55205 9.05084 4.2821 9.05833 4.27918C9.13403 4.1617 9.32886 3.88099 9.8115 3.88099H12.5608C13.0579 3.88099 13.2393 4.10494 13.336 4.27918C13.3535 4.31055 14.1243 5.55205 14.1243 5.55205H16.9813C18.2622 5.55205 18.9221 6.14941 18.9221 7.49281V14.3932Z"
+                  fill="currentColor" />
+                <path
+                  d="M64.4361 4.47998L62.2141 5.27418V6.65937H61.6381V8.88757H62.2141V12.4733C62.2141 13.0207 62.3157 13.4768 62.5189 13.8417C62.9598 14.6306 63.8137 15.0069 64.9166 15.0069C65.2589 15.0069 65.6039 14.9629 66.0975 14.8394V12.7993C65.5329 13.0449 65.2745 13.0471 65.1063 13.0471C64.8973 13.0471 64.726 13.021 64.5925 12.8973C64.4822 12.7975 64.4213 12.6858 64.4098 12.5623L64.4182 12.0322V8.88749H66.1074V6.65907H64.4361V4.47998Z"
+                  fill="currentColor" />
+                <path
+                  d="M88.5852 7.22764C87.9991 6.86367 87.3124 6.66443 86.6613 6.66443C85.9993 6.66443 85.4184 6.83769 84.8487 7.14969C84.3006 7.45024 83.8507 7.87456 83.4659 8.42377C82.9775 9.13425 82.75 9.92007 82.75 10.8497C82.75 11.5779 82.9157 12.2857 83.2467 12.9037C83.5885 13.5451 84.0713 14.0535 84.6952 14.4291C85.3029 14.8044 85.9485 15.0097 86.6322 15.0097C87.3159 15.0097 87.9587 14.8075 88.5608 14.4376C89.1682 14.0624 89.651 13.5482 90.0093 12.8952C90.3676 12.2425 90.5465 11.5635 90.5465 10.8239C90.5465 10.1018 90.3783 9.41137 90.0418 8.78728C89.6891 8.13442 89.2035 7.61454 88.5852 7.22764ZM88.1456 12.2368C87.7278 12.7277 87.262 12.9734 86.6434 12.9734C86.139 12.9734 85.6475 12.7944 85.2731 12.4362C84.8284 12.0084 84.606 11.4768 84.6059 10.8413C84.6059 10.2293 84.7958 9.718 85.1756 9.30759C85.5553 8.88559 86.0526 8.69204 86.6333 8.69204C87.1705 8.69204 87.6059 8.85677 87.9749 9.22081C88.4307 9.66572 88.6586 10.1973 88.6585 10.8156C88.6584 11.3645 88.4874 11.8382 88.1456 12.2368Z"
+                  fill="currentColor" />
+                <path
+                  d="M51.3168 7.25987C50.7075 6.89733 50.0642 6.71601 49.387 6.71591C48.6988 6.71591 48.0585 6.87122 47.4663 7.18185C46.8963 7.48095 46.4112 7.9039 46.0108 8.45068C45.7142 8.86209 45.4993 9.32653 45.3776 9.81887C45.2214 9.16966 44.9097 8.58034 44.4427 8.05093C43.636 7.12697 42.6231 6.66497 41.4042 6.66492C40.6613 6.66492 39.9707 6.85615 39.3323 7.23861C38.7108 7.61538 38.1114 8.13037 37.7342 8.78365C37.3743 9.40751 37.2139 10.1491 37.22 11.0081L37.229 17.7693H39.4453V14.3716C39.6775 14.5246 39.8575 14.6306 39.9851 14.6894C40.4029 14.9012 40.8963 15.0072 41.4654 15.0074C42.5215 15.0074 43.3551 14.6511 44.1384 13.9389C44.7687 13.3615 45.1794 12.6855 45.3704 11.911C45.4566 12.2611 45.5896 12.5979 45.766 12.9124C46.1213 13.5513 46.6233 14.0577 47.272 14.4315C47.9037 14.8052 48.5751 14.9922 49.2862 14.9923C49.9972 14.9924 50.6656 14.8083 51.2914 14.44C51.923 14.0662 52.4251 13.5541 52.7977 12.9036C53.1704 12.2532 53.3566 11.5599 53.3562 10.8238C53.3562 10.105 53.1813 9.43487 52.8314 8.8133C52.4647 8.16274 51.9598 7.64493 51.3168 7.25987ZM42.8935 12.4296C42.4813 12.8356 41.9621 13.0384 41.37 13.0384C40.8707 13.0384 40.4412 12.8799 40.0465 12.5621C39.5008 12.1203 39.228 11.5523 39.2283 10.8581C39.2283 10.3051 39.4111 9.81965 39.7768 9.4016C40.2003 8.92464 40.714 8.68629 41.3179 8.68654C41.904 8.68654 42.4032 8.87772 42.8154 9.26008C43.2972 9.70774 43.5382 10.2433 43.5383 10.8669C43.5379 11.4793 43.3228 12.0002 42.8932 12.4296H42.8935ZM50.8426 12.2479C50.4084 12.7371 49.8872 12.9817 49.2439 12.9817C48.7197 12.9817 48.2449 12.8032 47.8556 12.4465C47.3932 12.0206 47.162 11.4913 47.162 10.8585C47.162 10.2487 47.3594 9.73953 47.7543 9.33106C48.1492 8.91087 48.6484 8.70079 49.2518 8.70084C49.8104 8.70084 50.2815 8.88204 50.6649 9.24443C51.1391 9.68769 51.376 10.217 51.3757 10.8325C51.3756 11.3791 51.1978 11.8509 50.8423 12.2478L50.8426 12.2479Z"
+                  fill="currentColor" />
+                <path
+                  d="M102.261 8.78288C101.909 8.13123 101.424 7.6123 100.807 7.2261C100.223 6.86312 99.5376 6.66455 98.8877 6.66455C98.2274 6.66455 97.6475 6.83728 97.0791 7.14868C96.5325 7.44863 96.0833 7.87242 95.6993 8.41997C95.2121 9.12917 94.9852 9.91333 94.9852 10.8412C94.9852 11.568 95.15 12.2743 95.4806 12.8912C95.8217 13.5309 96.3034 14.0382 96.9257 14.413C97.5322 14.7874 98.1762 14.9926 98.8583 14.9926C99.5404 14.9926 100.182 14.7905 100.783 14.4219C101.389 14.0475 101.87 13.5344 102.228 12.8825C102.585 12.2311 102.764 11.5536 102.764 10.816C102.764 10.0947 102.596 9.40546 102.261 8.78288ZM100.369 12.2421C99.9518 12.732 99.487 12.9774 98.8697 12.9774C98.3664 12.9774 97.8759 12.7987 97.5023 12.4413C97.0585 12.0146 96.8366 11.4841 96.8365 10.8499C96.8365 10.2387 97.026 9.72856 97.405 9.31935C97.7839 8.89834 98.2801 8.68779 98.8596 8.68779C99.3955 8.68779 99.8301 8.86936 100.198 9.23287C100.653 9.67663 100.88 10.2069 100.88 10.8238C100.88 11.3717 100.71 11.8444 100.369 12.242V12.2421Z"
+                  fill="currentColor" />
+                <path
+                  d="M105.936 9.98225C105.357 9.74704 105.019 9.56372 104.921 9.43229C104.852 9.32882 104.818 9.22601 104.818 9.12306C104.818 9.00246 104.861 8.89349 104.947 8.79616C105.038 8.69283 105.162 8.64154 105.316 8.64154C105.528 8.64154 105.738 8.71312 105.944 8.85628C106.111 8.97661 106.282 9.17682 106.494 9.52641L107.819 8.27136C107.578 7.87617 107.383 7.62152 107.2 7.43815C106.713 6.95106 106.105 6.70752 105.377 6.70752C104.356 6.70752 103.594 7.1516 103.089 8.03977C102.883 8.40636 102.78 8.80177 102.78 9.22601C102.78 9.73581 102.903 10.1741 103.149 10.5407C103.459 11.005 104.054 11.3459 104.655 11.5638C105.172 11.747 105.473 11.9017 105.559 12.028C105.644 12.1542 105.687 12.2803 105.687 12.4063C105.687 12.5496 105.636 12.6788 105.533 12.7934C105.412 12.9249 105.263 12.9909 105.086 12.9911C104.747 12.9911 104.248 12.7424 103.761 12.0721L102.531 13.5416C102.812 13.9488 103.012 14.1544 103.236 14.3317C103.769 14.7558 104.495 14.9681 105.137 14.9681C105.813 14.9681 106.395 14.7389 106.883 14.2805C107.473 13.7189 107.768 13.0571 107.769 12.295C107.769 11.8539 107.648 11.4355 107.408 11.0399C107.121 10.5753 106.537 10.223 105.936 9.98225Z"
+                  fill="currentColor" />
+                <path
+                  d="M93.476 12.8801C93.3655 12.7803 93.3045 12.6685 93.2931 12.5448L93.3018 12.0147V8.88767H94.9759V6.66059H93.3062V4.4353L91.1041 5.29636V6.66059H90.5289V8.88767H91.1041V12.4565C91.1041 13.0035 91.2057 13.4596 91.4088 13.8245C91.85 14.6135 92.7565 15.0076 93.8597 15.0076C94.2021 15.0076 94.4899 14.9284 94.9835 14.8047V12.7674C94.4033 13.0541 94.1581 13.0657 93.9899 13.0657C93.7809 13.0657 93.6096 13.0038 93.476 12.8801Z"
+                  fill="currentColor" />
+                <path d="M61.1052 6.66968H58.8817V14.9892H61.1052V6.66968Z" fill="currentColor" />
+                <path
+                  d="M56.2442 8.64159C56.4563 8.64159 56.6656 8.71317 56.872 8.85633C57.0382 8.97663 57.2274 9.21148 57.4396 9.5609L58.7637 8.30631C58.523 7.91093 58.3108 7.62141 58.1273 7.43777C57.64 6.95069 57.0324 6.70715 56.3044 6.70715C55.2838 6.70715 54.5213 7.15123 54.0169 8.03938C53.8106 8.40627 53.7075 8.80182 53.7075 9.22606C53.7075 9.73585 53.8307 10.1741 54.0772 10.5408C54.3867 11.0053 54.8424 11.3463 55.4444 11.5638C55.9603 11.747 56.2612 11.9018 56.3473 12.028C56.4333 12.1542 56.4763 12.2803 56.4762 12.4063C56.4762 12.5497 56.4247 12.6787 56.3216 12.7933C56.2011 12.9249 56.052 12.9908 55.8742 12.9911C55.536 12.9911 55.1233 12.6558 54.6359 11.9852L53.4066 13.4544C53.6874 13.8614 53.9397 14.1536 54.1634 14.3311C54.6965 14.7554 55.2841 14.9675 55.9262 14.9675C56.6025 14.9675 57.1843 14.7383 57.6716 14.28C58.2621 13.7184 58.5573 13.0565 58.5573 12.2945C58.5573 11.8534 58.437 11.435 58.1964 11.0394C57.9095 10.5752 57.4652 10.2229 56.8636 9.98244C56.2846 9.74723 55.9463 9.56392 55.8487 9.43249C55.7799 9.32901 55.7456 9.22621 55.7456 9.12326C55.7456 9.00266 55.7886 8.89369 55.8746 8.79636C55.9662 8.69293 56.0894 8.64134 56.2442 8.64159Z"
+                  fill="currentColor" />
+                <path
+                  d="M60.7193 3.59004C60.5162 3.41842 60.2816 3.33266 60.0153 3.33276C59.7396 3.33276 59.4978 3.41852 59.2899 3.59004C59.0337 3.80105 58.9056 4.0781 58.9055 4.42119C58.9055 4.71526 59.0047 4.97264 59.2029 5.19333C59.4205 5.44323 59.6961 5.56832 60.0298 5.56862C60.3055 5.56862 60.5448 5.47779 60.7478 5.29614C60.9896 5.07565 61.1106 4.79381 61.1106 4.45062C61.1109 4.09759 60.9804 3.81074 60.7193 3.59004Z"
+                  fill="currentColor" />
+                <path
+                  d="M80.2652 7.08828C79.8648 6.7823 79.4236 6.62925 78.9418 6.62915C78.6223 6.62915 78.3146 6.69981 78.0187 6.84112C77.8038 6.94146 77.5139 7.0358 77.2119 7.33567V2.76208H74.9863V10.1326C74.8577 9.35804 74.5151 8.66373 73.9731 8.05065C73.1663 7.1267 72.1535 6.65289 70.9345 6.65289C70.1917 6.65289 69.4432 6.76715 68.805 7.14961C68.1835 7.52638 67.56 8.03171 67.1828 8.68454C66.8228 9.3084 66.6436 10.1485 66.6496 11.0075L66.6576 17.7705H68.8772V14.3712C69.1091 14.5242 69.289 14.6301 69.4168 14.689C69.8349 14.9008 70.3393 15.0071 70.9083 15.0071C71.9646 15.0071 72.8846 14.6509 73.6682 13.9386C74.391 13.2763 74.8356 12.4843 74.9861 11.5634V14.9866H77.2117V10.2312C77.2117 9.7016 77.3336 9.30725 77.5775 9.04814C77.8735 8.72468 78.2274 8.6683 78.5758 8.6683C78.7092 8.6683 78.8456 8.71242 78.985 8.80068C79.136 8.89482 79.2753 9.13035 79.4029 9.50727L81.1691 14.9694H83.3368L81.327 8.93305C81.0137 8.00376 80.6598 7.38883 80.2652 7.08828ZM72.3713 12.4296C71.9591 12.8356 71.457 13.0385 70.8651 13.0384C70.3656 13.0384 69.9185 12.8797 69.5239 12.5622C68.9783 12.1204 68.7056 11.5523 68.7057 10.8581C68.7057 10.3052 68.8885 9.81967 69.2542 9.40162C69.6779 8.92467 70.1916 8.68632 70.7954 8.68657C71.3817 8.68657 71.8809 8.87775 72.293 9.26011C72.7748 9.70776 73.0158 10.2434 73.0158 10.8669C73.0156 11.4794 72.8008 12.0003 72.3713 12.4296Z"
+                  fill="currentColor" />
+              </g>
+              <defs>
+                <clipPath id="clip0_49_900">
+                  <rect width="107.819" height="20" fill="currentColor" />
+                </clipPath>
+              </defs>
+            </svg>
+
+          </a>
+        </div>
+        <div class="contacts__wrapper">
+          <div class="contacts">
+            <p>Контакт-центр: <a class="contacts__phone" href="#"> 0 800 300 545</a></p>
+            <a class="contacts__email" href="mailto:ukrposhta@ukrposhta.ua">ukrposhta@ukrposhta.ua</a>
+          </div>
+          <div class="lang-selection" id="footer-lang-selection">
+            <a class="ua footer-ua" href="#">UA</a>
+            <a class="eng" href="#  ">EN</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="copyright-box">
+      <p>2002-2022 Укрпошта. Всі права захищено</p>
+      <a class="policy" href="#">Політика конфіденційності</a>
+    </div>
+  </footer>
+ 
+
+  <div class="popup" id="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close">X</a>
+        <div class="popup__header">
+          <h5 class="popup__title">Впишіть свою повну адресу</h5>
+          <p class="popup__text">Лист від Новорічного чарівника <br> не загубиться у зимовій завірюсі та знайде свого
+            маленького отримувача</p>
+        </div>
+        <div class="popup__items">
+          <form>
+            <input class="popup__input" type="text" name="name" placeholder="Ім'я дитини"><br>
+            <input class="popup__input" type="text" name="age" placeholder="Вік дитини"><br>
+            <input class="popup__input" type="text" name="parent name" placeholder="ПІБ одного з батьків"><br>
+            <input class="popup__input" type="text" name="phone"
+              placeholder="Номер мобільного телефону одного з батьків"><br>
+            <input class="popup__input" type="text" name="street" placeholder="Вулиця"><br>
+            <input class="popup__input" type="text" name="house" placeholder="Номер будинку"><br>
+            <input class="popup__input" type="text" name="apartments" placeholder="Номер квартири"><br>
+            <input class="popup__input" type="text" name="city" placeholder="Місто, смт, село"><br>
+            <input class="popup__input" type="text" name="region" placeholder="Область"><br>
+            <input class="popup__input" type="text" name="postl code" placeholder="Поштовий індекс"><br>
+            <button class="popup-btn" type="submit">Надіслати</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
