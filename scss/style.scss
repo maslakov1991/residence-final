@@ -521,11 +521,10 @@ body {
   height: auto;
 }
 .decor-bottom {
-  padding: 105px 0;
-  width: 100%;
+  padding: 140px 0;
   background-image: url(../images/trees.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   position: absolute;
   left: 0;
@@ -621,8 +620,8 @@ body {
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    width: 47%;
     color: #fff;
+    width: 930px;
   }
   p {
     color: #fff;
@@ -647,6 +646,10 @@ body {
     &:hover {
       color: #99a2aa;
     }
+  }
+  #footer-lang-selection {
+    margin-left: auto;
+    margin-right: 0;
   }
 }
 .footer-ua {
@@ -884,6 +887,9 @@ body {
   .footer-column {
     flex-basis: 50%;
   }
+  .decor-bottom {
+    padding: 65px 0;
+  }
 }
 
 @media (max-width: 900px) {
@@ -935,6 +941,7 @@ body {
     }
     .decor-bottom {
       z-index: 25;
+      padding: 125px 0;
     }
   }
   #item-2-img {
@@ -979,6 +986,9 @@ body {
     &__wrapper {
       width: 100%;
     }
+  }
+  .decor-bottom {
+    padding: 120px 0;
   }
 }
 
